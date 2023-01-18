@@ -1,0 +1,28 @@
+// * ===== fonts ===== * //
+@import "_fonts";
+
+// * ===== null ===== * //
+@import "_variables";
+@import "_nullstyle";
+
+body {
+  font-family: $fontsInter;
+  background-color: #fafafa;
+}
+
+// * ===== bem blocks ===== * //
+@import "_blocks";
+
+// * ===== header ===== * //
+@import "_header.scss";
+
+// * ===== main ===== * //
+@import "_page";
+
+// * ===== all sections ===== * //
+@import "_start";
+@import "_why-fresh";
+@import "_for-all";
+
+// * ===== footer ===== * //
+@import "_footer";

@@ -1,0 +1,86 @@
+.header {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    align-items: center;
+  }
+
+  &__wrap-logo-block {
+    display: flex;
+  }
+
+  &__wrap-logo {
+  }
+
+  &__logo {
+  }
+
+  &__text-slogan {
+    margin-left: 12px;
+  }
+
+  &__nav {
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.007em;
+
+    margin-left: 24px;
+  }
+
+  &__ref {
+    color: #1e1f1f;
+
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      color: $backgroundButtonColorHover;
+    }
+
+    &:active {
+      color: $backgroundButtonColorActive;
+    }
+  }
+
+  &__wrap-contact {
+    display: flex;
+  }
+
+  &__wrap-button {
+  }
+
+  &__button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.007em;
+
+    padding: 8px 16px;
+
+    background-color: $backgroundButtonColor;
+    border-radius: 100px;
+    margin-left: 24px;
+    color: #fff;
+
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: $backgroundButtonColorHover;
+    }
+
+    &:active {
+      background-color: $backgroundButtonColorActive;
+    }
+  }
+
+  &__tel {
+    color: #056b53;
+  }
+}
