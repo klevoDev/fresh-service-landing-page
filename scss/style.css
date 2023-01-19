@@ -89,6 +89,13 @@ body {
   box-sizing: content-box;
 }
 
+.case {
+  max-width: 758px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
 .header__row {
   display: flex;
   justify-content: space-between;
@@ -150,6 +157,12 @@ body {
 }
 .page__why-fresh {
   padding: 80px 0 40px 0;
+}
+.page__for-all {
+  padding: 0 0 80px 0;
+}
+.page__work {
+  padding: 0 0 90px 0;
 }
 .start__heading {
   font-family: "Onest", sans-serif;
@@ -267,4 +280,185 @@ body {
 .why-fresh__block3-text {
   position: absolute;
   padding: 80px 0 0 80px;
+}
+
+.for-all__title {
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 74px;
+  line-height: 84%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #1e1f1f;
+  margin: 0 auto;
+  width: 700px;
+  margin-bottom: 48px;
+}
+.for-all__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+.for-all__column {
+  padding: 12px;
+  flex: 0 1 50%;
+}
+.for-all__item {
+  padding: 32px;
+  background: #fff;
+  height: 100%;
+  display: flex;
+  box-shadow: 0px 0px 20px rgba(66, 74, 72, 0.05);
+  border-radius: 18px;
+}
+.for-all__body {
+  padding: 0 0 0 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.for-all__subtitle {
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 133%;
+  color: #1e1f1f;
+  margin-bottom: 6px;
+}
+.for-all__text {
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.007em;
+  color: #1e1f1f;
+}
+
+.work__title {
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 74px;
+  line-height: 84%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #1e1f1f;
+  margin-bottom: 74px;
+}
+.work__wrap-block1 {
+  background: #edf0ef;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 78px;
+  margin-bottom: 20px;
+}
+.work__wrap-level1 {
+  background: #fff;
+  box-shadow: 0px 0px 12px rgba(76, 85, 82, 0.16);
+  padding: 12px 26px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-left: 5px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 115%;
+  letter-spacing: -0.01em;
+  color: "Onest", sans-serif;
+}
+.work__text {
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.007em;
+  padding-left: 16px;
+  color: #1e1f1f;
+}
+.work__wrap-line1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.work__wrap-block2 {
+  background: #edf0ef;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 78px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+.work__wrap-level2 {
+  background: #fff;
+  box-shadow: 0px 0px 12px rgba(76, 85, 82, 0.16);
+  padding: 12px 24px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-left: 5px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 115%;
+  letter-spacing: -0.01em;
+  color: "Onest", sans-serif;
+}
+.work__wrap-line2 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.work__wrap-block3 {
+  background: #edf0ef;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 78px;
+  margin-bottom: 20px;
+}
+.work__wrap-level3 {
+  background: #fff;
+  box-shadow: 0px 0px 12px rgba(76, 85, 82, 0.16);
+  padding: 12px 23px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-left: 5px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 115%;
+  letter-spacing: -0.01em;
+  color: "Onest", sans-serif;
+}
+.work__wrap-line3 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.work__wrap-block4 {
+  background: #edf0ef;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 78px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+.work__wrap-level4 {
+  background: #fff;
+  box-shadow: 0px 0px 12px rgba(76, 85, 82, 0.16);
+  padding: 12px 24px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-left: 5px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 115%;
+  letter-spacing: -0.01em;
+  color: "Onest", sans-serif;
 }/*# sourceMappingURL=style.css.map */
