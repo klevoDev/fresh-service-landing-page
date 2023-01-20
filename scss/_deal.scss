@@ -1,0 +1,157 @@
+.deal {
+  &__wrap-block {
+    margin-bottom: 24px;
+  }
+
+  &__block-text {
+    position: absolute;
+    padding: 40px 0 0 32px;
+  }
+
+  &__subtitle {
+    font-family: $fontOnest;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 115%;
+    letter-spacing: -0.01em;
+
+    color: #fff;
+    width: 532px;
+
+    margin-bottom: 24px;
+  }
+
+  &__wrap-price {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 48px;
+  }
+
+  &__price {
+    font-family: $fontOnest;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 115%;
+    letter-spacing: -0.01em;
+
+    color: $textColor;
+
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 12px;
+  }
+
+  &__last-price {
+    font-family: $fontOnest;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 115%;
+    letter-spacing: -0.01em;
+    text-decoration-line: line-through;
+
+    color: #fff;
+
+    margin-left: 32px;
+  }
+
+  &__wrap-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.007em;
+  }
+
+  &__button {
+    background-color: $textColor;
+    border-radius: 100px;
+    color: #fff;
+    padding: 16px 46.5px;
+  }
+
+  &__img {
+  }
+
+  &__wrap-offer {
+    box-shadow: 0px 0px 20px rgba(66, 74, 72, 0.05);
+    border-radius: 18px;
+    padding: 32px;
+    background-color: #fff;
+
+    margin-bottom: 24px;
+  }
+
+  &__title-five {
+    font-family: $fontOnest;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133%;
+
+    color: $textColor;
+
+    margin-bottom: 8px;
+  }
+
+  &__header-list {
+    font-size: 18px;
+    line-height: 156%;
+
+    letter-spacing: -0.007em;
+
+    color: $textColor;
+  }
+
+  &__list {
+    list-style: inside;
+  }
+
+  &__item {
+    font-size: 18px;
+    line-height: 156%;
+
+    letter-spacing: -0.007em;
+
+    color: $textColor;
+  }
+
+  &__row {
+    display: flex;
+    margin: 0 -12px;
+  }
+
+  &__column {
+    padding: 0 12px;
+    flex: 0 1 33.3334%;
+  }
+
+  &__items {
+    padding: 32px 32px 0 32px;
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(66, 74, 72, 0.05);
+    border-radius: 18px;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title-five {
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: -0.007em;
+
+    color: $textColor;
+  }
+
+  &__wrap-pic {
+  }
+
+  &__pic {
+    padding-left: 30px;
+  }
+}
