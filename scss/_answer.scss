@@ -1,0 +1,41 @@
+.answer {
+  &__subheading {
+    font-family: $fontOnest;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 84%;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: $textColor;
+
+    margin-bottom: 48px;
+  }
+
+  &__wrap-question {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 24px 32px;
+
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(66, 74, 72, 0.05);
+    border-radius: 18px;
+
+    margin-bottom: 12px;
+  }
+
+  &__question {
+    font-family: $fontOnest;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133%;
+
+    color: $textColor;
+  }
+
+  &__more {
+  }
+
+  &__plus {
+  }
+}
