@@ -1,0 +1,75 @@
+.footer {
+  padding: 0 0 40px 0;
+  &__wrap-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #edf0ef;
+  }
+
+  &__wrap-logo-block {
+    display: flex;
+    padding: 20px 0;
+  }
+
+  &__wrap-logo {
+  }
+
+  &__logo {
+  }
+
+  &__text-slogan {
+    padding: 5px 0 0 12px;
+
+    font-size: 12px;
+    line-height: 100%;
+
+    color: $textColor;
+  }
+
+  &__mobile {
+    font-family: $fontOnest;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133%;
+
+    color: $backgroundButtonColor;
+  }
+
+  &__contact {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__company {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.007em;
+
+    color: #7e807f;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 32px;
+  }
+
+  &__ref {
+    color: #1e1f1f;
+
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      color: $backgroundButtonColorHover;
+    }
+
+    &:active {
+      color: $backgroundButtonColorActive;
+    }
+  }
+}
